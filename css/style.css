@@ -72,6 +72,10 @@ padding-left: 10px;
     flex-direction: row-reverse;
 
   }
+  .border{
+    border: solid 1px gray;
+
+  }
   h1{
     font-size: 50px;
   }
@@ -104,7 +108,8 @@ margin-top: 20px;
 position: relative;
 top: 90px;
 }
- .padding-right{
+ /*.padding-right{
 padding-right: 250px;
- }
+ }*/
+ 
 
