@@ -21,7 +21,7 @@ body {
     margin: 0 auto;
     max-width: 1200px;
   }
-  container-small{
+  .container-small{
     margin: 0 auto;
     max-width: 1000px;
   }
@@ -35,6 +35,7 @@ list-style-type: none;
 justify-content: space-between;
   }
   .padding-bottom{
+    padding-top:20px ;
 padding-bottom: 20px;
   }
   .padding-header{
@@ -47,4 +48,3 @@ padding-left: 10px;
     border: none;
     background-color: white;
   }
-  
