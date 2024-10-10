@@ -185,3 +185,7 @@ padding-right: 770px;
 .padding-right10px{
 padding-right: 10px;
 }
+.container-p{
+  flex-direction: row;
+width: calc( 100% : 3);
+}
