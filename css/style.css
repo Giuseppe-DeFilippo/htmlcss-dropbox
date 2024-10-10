@@ -129,10 +129,10 @@ padding-right: 330px;
 padding-left: 350px;
 padding-right: 350px;
 }
-.margin-column2{
+/*.margin-column{
   margin-left: 500px;
   
-}
+}*/
 .margin-column2{
 margin-left: 350px;
 margin-right: 350px;
@@ -203,4 +203,34 @@ background-color: var(--color-light-blue);
 }
 .text-violet{
 color: var(--color-logo-second);
+}
+.margin-bot{
+padding-bottom: 40px;
+padding-top: 40px;
+}
+.h2-border{
+border-top: solid 1px;
+border-bottom: solid 1px;
+
+}
+.bg-color-black{
+background-color: var(--color-dark);
+}
+.margin-bot-60px{
+margin-bottom: 80px;
+}
+.text-white{
+  color: white;
+}
+.margin-top-left{
+margin-top: 20px;
+
+}
+.hr1{
+width: 100px;
+}
+.border-language{
+background-color: black;
+border: none;
+color: white;
 }
