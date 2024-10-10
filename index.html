@@ -8,14 +8,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/8f89015522.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!--header-->
     <header>
         <div class="space-btween d-flex padding-bottom debug">
             <div class="debug  d-flex">
-            <img class="padding-button" src="img/logo-small.png" alt="logo">
+            
                 <ul class="d-flex">
+                    <li><img class="padding-button" src="img/logo-small.png" alt="logo"></li>
                     <li class="padding-header">Perche dropbox</li>
                     <li class="padding-header">funzioni</li>
                     <li class="padding-header">piani e prezzi</li>
@@ -28,7 +31,7 @@
                     <li class="padding-header">
                         <button class="button-header">Accedi</button></li>
                     <li class="padding-button">
-                        <button class="bg-color-blu">inizia</button></li>
+                        <button class="bg-color-blu button-inizia">inizia</button></li>
                 </ul>
             </div>
         </div>
@@ -43,7 +46,7 @@
                     <img class=" container-small " src="img/jumbo.png">
                     <div>
                     <section>Finalmente tutti i tuoi strumenti e collaboratori sono accessibili dallo stesso posto.dropbox business è piu di uno spazio di archiviazione sicuro:è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</section>
-                <button class=" bg-color-blu padding-top-button">Inizia la prova gratuita</button>
+                <button class=" bg-color-blu padding-top-button button-inizia-prova">Inizia la prova gratuita</button>
                 <section class="padding-top-button">Annulla in qualsiasi momento</section>
                 </div>
                    </div>
@@ -53,9 +56,9 @@
     <div class=" debug d-flex column padding-left ">
         <h2>Trova il piano business che fa per te</h2>
         <section>
-            <input type="checkbox" id="fatturazione" name="vehicle1" value="Bike">
+            <input type="radio" id="fatturazione" >
             <label for="fatturazione">fatturazione mensile</label>
-            <input type="checkbox" id="annuale" name="vehicle1" value="Bike">
+            <input type="radio" id="annuale">
             <label for="annuale">fatturazione annuale</label>
         </section>
         <!--inizio colonne-->
@@ -65,56 +68,94 @@
             <div class="debug  padding-10px border ">
             <div class="d-flex">
                 <ul class="">
-                <li class="border align">singolo</li>
+                <li class="border align"><i class="fa-solid fa-user"></i>singolo</li>
                 <h2 class="margin-20px padding-piano">professional</h2>
                 <li class="margin-20px padding15px">€12.00</li>
+
                 <li class="margin-20px padding15px">/mese</li>
+
                 <li class="margin-20px padding-40px">1 utente</li>
+
                 <li class="margin-20px padding-piano">5 TB di spazio di archiviazione sicuro</li>
+
                 <li class="margin-20px padding-piano ">funzioni di produttività premium e condivisione file semplice e sicura</li>
-                <li class="margin-20px"><button>Prova gratis per 30 giorni</button></li>
-                <li class="margin-20px">oppure <a href="https://www.dropbox.com/it/buy">acquista qui</a></li>
-                <li class="margin-20px">barra</li>
-                <li class="margin-20px">Punti salienti del piano</li>
-                <li class="margin-20px">invia file fino a 100gb con Dropbox transfert</li>
-                <li class="margin-20px">Cartelle offline su dispositivi mobili</li>
+
+                <li class="margin-20px padding-40px"><button class="button-inizia-prova bg-color-blu">Prova gratis per 30 giorni</button></li>
+
+                <li class="margin-20px padding-top-button">oppure <a href="https://www.dropbox.com/it/buy">acquista qui</a></li>
+
+                <li class="margin-20px padding-top-h1"><hr></li>
+
+                <li class="margin-20px padding-top-h1">Punti salienti del piano</li>
+
+                <li class="margin-20px padding-top-h1">invia file fino a 100gb con Dropbox transfert</li>
+
+                <li class="margin-20px padding-top-h1">Cartelle offline su dispositivi mobili</li>
             </ul></div>
             </div>
-            <div class="debug padding-10px border">
-            <div class="d-flex ">
-                <ul>
-                <li class="border" >singolo</li>
-                <h2>Advanced</h2>
-                <li>€12.00</li>
-                <li>/mese</li>
-                <li>1 utente</li>
-                <li>5 TB di spazio di archiviazione sicuro</li>
-                <li>funzioni di produttività premium e condivisione file semplice e sicura</li>
-                <li><button>Prova gratis per 30 giorni</button></li>
-                <li>oppure <a href="https://www.dropbox.com/it/buy">acquista qui</a></li>
-                <li>barra</li>
-                <li>Punti salienti del piano</li>
-                <li>invia file fino a 100gb con Dropbox transfert</li>
-                <li>Cartelle offline su dispositivi mobili</li>
-            </ul></div>
-            </div>
-            <div class="border">
-            <div class=" d-flex ">
-                <ul>
-                <li class="border">singolo</li>
-                <h2>enterprise</h2>
-                <li>€12.00</li>
-                <li>/mese</li>
-                <li>1 utente</li>
-                <li>5 TB di spazio di archiviazione sicuro</li>
-                <li>funzioni di produttività premium e condivisione file semplice e sicura</li>
-                <li><button>Prova gratis per 30 giorni</button></li>
-                <li>oppure <a href="https://www.dropbox.com/it/buy">acquista qui</a></li>
-                <li>barra</li>
-                <li>Punti salienti del piano</li>
-                <li>invia file fino a 100gb con Dropbox transfert</li>
-                <li>Cartelle offline su dispositivi mobili</li>
-            </ul></div>
+            <!--2tabella-->
+
+            <div class="debug  padding-10px border ">
+                <div class="d-flex">
+                    <ul class="">
+                    <li class="border align"><i class="fa-solid fa-user"></i>singolo</li>
+                    <h2 class="margin-20px padding-piano">Advanced</h2>
+                    <li class="margin-20px padding15px">€12.00</li>
+    
+                    <li class="margin-20px padding15px">/mese</li>
+    
+                    <li class="margin-20px padding-40px">1 utente</li>
+    
+                    <li class="margin-20px padding-piano">5 TB di spazio di archiviazione sicuro</li>
+    
+                    <li class="margin-20px padding-piano ">funzioni di produttività premium e condivisione file semplice e sicura</li>
+    
+                    <li class="margin-20px padding-40px"><button class="button-inizia-prova bg-color-blu">Prova gratis per 30 giorni</button></li>
+    
+                    <li class="margin-20px padding-top-button">oppure <a href="https://www.dropbox.com/it/buy">acquista qui</a></li>
+    
+                    <li class="margin-20px padding-top-h1"><hr></li>
+    
+                    <li class="margin-20px padding-top-h1">Punti salienti del piano</li>
+    
+                    <li class="margin-20px padding-top-h1">invia file fino a 100gb con Dropbox transfert</li>
+    
+                    <li class="margin-20px padding-top-h1">Cartelle offline su dispositivi mobili</li>
+                    <li class="margin-20px">risaprmio del 50%</li>
+                    <li class=" margin-20px padding-top-h1">possibilita di inserire nuovi membri del team</li>
+                    <li class=" margin-20px padding-top-h1 padding-bottom-30px">gestione dei permessi in base ai ruoli</li>
+                </ul></div>
+                </div>
+                <!--3 tabella-->
+                <div class="debug  padding-10px border ">
+                    <div class="d-flex">
+                        <ul class="">
+                        <li class="border align"><i class="fa-solid fa-building"></i>azienda</li>
+                        <h2 class="margin-20px padding-piano">Enterprise</h2>
+                        <li class="margin-20px padding15px">€12.00</li>
+        
+                        <li class="margin-20px padding15px">/mese</li>
+        
+                        <li class="margin-20px padding-40px">1 utente</li>
+        
+                        <li class="margin-20px padding-piano">5 TB di spazio di archiviazione sicuro</li>
+        
+                        <li class="margin-20px padding-piano ">funzioni di produttività premium e condivisione file semplice e sicura</li>
+        
+                        <li class="margin-20px padding-40px"><button class="button-inizia-prova bg-color-blu">Prova gratis per 30 giorni</button></li>
+        
+                        <li class="margin-20px padding-top-button">oppure <a href="https://www.dropbox.com/it/buy">acquista qui</a></li>
+        
+                        <li class="margin-20px padding-top-h1"><hr></li>
+        
+                        <li class="margin-20px padding-top-h1">Punti salienti del piano</li>
+        
+                        <li class="margin-20px padding-top-h1">invia file fino a 100gb con Dropbox transfert</li>
+        
+                        <li class="margin-20px padding-top-h1">Cartelle offline su dispositivi mobili</li>
+                        <li class="margin-20px padding-top-h1">possibilita di personalizzare</li>
+                    </ul></div>
+                    </div>
             </div>
             </div>
         </div>
