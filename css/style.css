@@ -80,6 +80,11 @@ padding-bottom: 20px;
 .padding-button{
 padding-left: 10px;
   }
+  .button-contatta{
+background-color: var(--color-blue);
+color: white;
+border: none;
+  }
   .button-header{
     border: none;
     background-color: white;
@@ -95,7 +100,10 @@ padding-left: 10px;
     flex-direction: row-reverse;
 
   }
-  
+  .button-trova{
+width: 160px;
+height: 40px;
+  }
   .border{
     border: solid 1px gray;
 
