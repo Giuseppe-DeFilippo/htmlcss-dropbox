@@ -84,6 +84,7 @@ padding-left: 10px;
 background-color: var(--color-blue);
 color: white;
 border: none;
+width: 200px;
   }
   .button-header{
     border: none;
@@ -241,4 +242,10 @@ width: 100px;
 background-color: black;
 border: none;
 color: white;
+}
+.margin-right20px{
+margin-right: 20px;
+}
+.margin-top-40px{
+margin-top: 40px;
 }
